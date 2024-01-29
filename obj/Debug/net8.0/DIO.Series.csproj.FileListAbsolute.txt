@@ -1,0 +1,14 @@
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\bin\Debug\net8.0\DIO.Series.exe
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\bin\Debug\net8.0\DIO.Series.deps.json
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\bin\Debug\net8.0\DIO.Series.runtimeconfig.json
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\bin\Debug\net8.0\DIO.Series.dll
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\bin\Debug\net8.0\DIO.Series.pdb
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.AssemblyInfoInputs.cache
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.AssemblyInfo.cs
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.csproj.CoreCompileInputs.cache
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.dll
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\refint\DIO.Series.dll
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.pdb
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.genruntimeconfig.cache
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\ref\DIO.Series.dll
