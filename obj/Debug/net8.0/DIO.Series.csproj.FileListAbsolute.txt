@@ -12,3 +12,4 @@ C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\refint
 C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.pdb
 C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.genruntimeconfig.cache
 C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\ref\DIO.Series.dll
+C:\Users\Kayo\Desktop\klrepository\AllaboutC#\DIO.Series\obj\Debug\net8.0\DIO.Series.sourcelink.json

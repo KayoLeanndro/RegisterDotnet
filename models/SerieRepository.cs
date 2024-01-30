@@ -7,34 +7,33 @@ namespace DIO.Series
 {
     public class SerieRepository : IRepository<Serie>
     {
+        private List<Serie> seriesList = new List<Serie>();
+        public void Update(int id, Serie serieObject)
+        {
+            seriesList[id] = serieObject;
+        }
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            seriesList[id].Excluir();
         }
 
-        public void Insert(Serie BaseEntity)
+        public void Insert(Serie serieObject)
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Serie> Lista()
-        {
-            throw new NotImplementedException();
+            seriesList.Add(serieObject);
         }
 
         public int NextId()
         {
-            throw new NotImplementedException();
+            return seriesList.Count;
         }
 
         public Serie ReturnById(int id)
         {
-            throw new NotImplementedException();
+            return seriesList[id];
         }
-
-        public void Update(int id, Serie BaseEntity)
+        public List<Serie> Lista()
         {
-            throw new NotImplementedException();
+            return  seriesList; 
         }
     }
 }
