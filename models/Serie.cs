@@ -3,49 +3,53 @@ namespace DIO.Series
 {
     public class Serie : BaseEntity
     {
-        private Genero Genero { get; set; }
-        private string Titulo { get; set; }
-        private string Descricao { get; set; }
-        private int Ano { get; set; }
-        private bool Excluido { get; set; }
+        private Genre Genre { get; set; }
+        private string Title { get; set; }
+        private string Description { get; set; }
+        private int Year { get; set; }
+        private bool Deleted { get; set; }
 
 
-        public Serie(int id, Genero genero, string Titulo, string descricao, int ano)
+        public Serie(int id, Genre genre, string title, string description, int year)
         {
             this.Id = id;
-            this.Genero = genero;
-            this.Titulo = Titulo;
-            this.Descricao = descricao;
-            this.Ano = ano;
-            this.Excluido = false;
+            this.Genre = genre;
+            this.Title = title;
+            this.Description = description;
+            this.Year = year;
+            this.Deleted = false;
         }
 
-        public string toString()
+        public string ToString()
         {
-            string retorno = "";
-            retorno += "Gênero: " + this.Genero + Environment.NewLine;
-            retorno += "Titulo: " + this.Titulo + Environment.NewLine;
-            retorno += "Descricão: " + this.Descricao + Environment.NewLine;
-            retorno += "Ano de Inicio: " + this.Ano + Environment.NewLine;
+            string output = "";
+            output += "Genre: " + this.Genre + Environment.NewLine;
+            output += "Title: " + this.Title + Environment.NewLine;
+            output += "Description: " + this.Description + Environment.NewLine;
+            output += "Year of Start: " + this.Year + Environment.NewLine;
+            output += "Deleted: " + this.Deleted + Environment.NewLine;
 
-            return retorno;
+            return output;
         }
 
-        public string retornarTitulo()
+        public string ReturnTitle()
         {
-            return this.Titulo;
+            return this.Title;
         }
-        public int retornarId()
+
+        public int ReturnId()
         {
             return this.Id;
         }
 
-        public void Excluir()
+        public bool returnDeleted()
         {
-            this.Excluido = true;
+            return this.Deleted;
         }
 
-
-
+        public void TurnDeleted()
+        {
+            this.Deleted = true;
+        }
     }
 }

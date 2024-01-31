@@ -3,7 +3,7 @@ namespace DIO.Series.Interfaces
 {
     public interface IRepository<T>
     {
-        List<T> Lista();
+        List<T> List();
         T ReturnById(int id);
         void Insert(T BaseEntity);
         void Delete(int id);
