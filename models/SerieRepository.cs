@@ -33,7 +33,7 @@ namespace DIO.Series
         }
         public List<Serie> Lista()
         {
-            return  seriesList; 
+            return seriesList; 
         }
     }
 }

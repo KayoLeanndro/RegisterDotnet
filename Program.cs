@@ -15,10 +15,10 @@ namespace DIO.Series
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        repository.Lista();
+                        ListSeries();
                         break;
                     case "2":
-                        //InsertSerie();
+                        InserirSerie();
                         break;
                     case "3":
                         //updateSerie();
@@ -103,9 +103,9 @@ namespace DIO.Series
                                         entradaTitulo,
                                         entradaDescricao,
                                         entradaAno);
-            {
 
-            }
+            repository.Insert(novaSerie);
+            
         }
 
 
